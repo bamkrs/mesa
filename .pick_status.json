@@ -1,5 +1,176 @@
 [
     {
+        "sha": "800816d70be50b0b04669a016288121e1b11f0c8",
+        "description": "egl/entrypoint-check: add check that GLVND and plain EGL have the same entrypoints",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "351d513e30b3d09f39ee73169fc68e7cdaca1d11",
+        "description": "egl/entrypoint-check: split sort-check into a function",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "04bd58ff79eba8e95f33d1feea66c10aa65fb625",
+        "description": "Correct a typo in threads_win32.h",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e3069c4257730acd09d30beb088291837ed0f884",
+        "description": "pick-ui: specify git commands in \"resolve cherry pick\" message",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b238d17a02f13a80771e81e3604bc6cc86e26da2",
+        "description": "zink: Fix 32-bit compilation",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "0f059d550bd935c923acd5355de0916ddd6a2f84"
+    },
+    {
+        "sha": "08f3dcf2f6ef1da8aec4c95a531851c62c5798d6",
+        "description": "i965: add support for force_gl_vendor",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ab92c1178096308f2e3580fa8a2d280da776f05a",
+        "description": "freedreno/ir3: don't install ir3_compiler cmdline tool",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3b6e8670f8128522ecf366b3121051ca32219fc8",
+        "description": "freedreno/registers: add some missing regs to build",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "9c33c5389818bc5035eb4538ea5d3fc1321dd27e"
+    },
+    {
+        "sha": "1e28745bc0d3528c1dfc25459456849feb58d407",
+        "description": "meson/freedreno: Fix lua requirement",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "caa107cb8db930bc59cd557a325a6a0bc4a86565"
+    },
+    {
+        "sha": "0cdd411b6d78d15e8bc54e1ce5c3493cdbcadc1d",
+        "description": "radeonsi: various fixes for gfx10.3",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "e2e700f6053d0b16ba46e4d5c5b20e965fb2224e",
+        "description": "radeonsi: remove the NGG hack decreasing LDS usage to deal with overflows",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "97456e847e090577b67df7ea0a49183fc5e77462",
+        "description": "radeonsi: add a common function for getting the size of gs_ngg_scratch",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "68b3e92fef09330ac880e713a744dc7a57e78f05",
+        "description": "radeonsi: don't count unusable vertices to the NGG LDS size",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "64c741ffb7aa0ae40c4302bc065fef0192123c6a",
+        "description": "radeonsi: fix applying the NGG minimum vertex count requirement",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "4ecc39e1aa1568f19ebf54a99ffe14643bac7d15"
+    },
+    {
+        "sha": "7a468fc0f6a02d2ee71b50225459de335ed689b4",
+        "description": "radeonsi: increase minimum NGG vertex count requirement per workgroup on gfx 10.3",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "633d2aa9157cb9b581982bf2f0aa4a80ba0062ae",
+        "description": "radeonsi: use the same units for esgs_ring_size and ngg_emit_size",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "b6fb09fd843293a4e5269cc457b6685435822d31",
+        "description": "radeonsi: use correct wave size in gfx10_ngg_calculate_subgroup_info",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "88efb63cafcf249a370ee27683c41afde3b95ffd"
+    },
+    {
+        "sha": "61c671c97e8632cf360ddbd2a6d7b3fe0e63627f",
+        "description": "Revert \"radeonsi: honor a user-specified pitch on gfx10.3\"",
+        "nominated": false,
+        "nomination_type": 2,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "c4b5fd9ab096a0bb5106b93191b13c81cc32243b"
+    },
+    {
+        "sha": "15bd3f3712a2aa0fb9d550edc7b4a6a35a015b42",
+        "description": "ac/gpu_info: set num_tiles_pipes on gfx10+ too",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "9333a8570d2174b73da63c3ee6f1a740ae487ab8",
         "description": "radeonsi: enable ETC2 hw acceleration on Raven2",
         "nominated": false,
