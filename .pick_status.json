@@ -1,5 +1,590 @@
 [
     {
+        "sha": "0980d1d5ab0829fa78852d81651d5386874e528a",
+        "description": "radv:  Clean up setting the surface flags.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d19bc94e4eb94a2c8cbdb328c9eaa2faf1ba424c",
+        "description": "radv: When importing an image, redo the layout based on the metadata.",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a0d67b7a1c32f4fcfdc8c6a66bc3359b1003c752",
+        "description": "anv: add no reloc flags on empty and simple bo paths.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "00b9a3443bac23a335647d6185b7d94f805af6bb",
+        "description": "anv: Mark anv_dump_{start,finish} as PUBLIC",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f024bc8314cfb94df6b321cc5e639a6c107f375b",
+        "description": "zink: invalidate pipeline hash on more changes",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "1185b3f32d97a260dfd388bd0ca032bc6a380bbf"
+    },
+    {
+        "sha": "65d7172d171b5a209ddb9f90ea7acc8105452816",
+        "description": "util/macros: Add ATTRIBUTE_NOINLINE definition for MSVC",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "58af31186a806c8f18cf92dad454bb5f46daa9e2",
+        "description": "u_debug_stack_test: Fix MSVC compiling by using ATTRIBUTE_NOINLINE",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "d0d14f3f6481e015b4413fa0487164b76fe45296"
+    },
+    {
+        "sha": "493298528a82e2ab7cf3ce6aed187fe19730e3d0",
+        "description": "iris: Make iris_bo_import_dmabuf take a modifier",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c111e9099ceada50a2437e6e2e2a0f7cc6597448",
+        "description": "iris: Don't call SET_TILING for dmabuf imports",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "c19492bcdb9ff5c5bf4092d2daff6e2e5d7bce1b"
+    },
+    {
+        "sha": "0c97e601a422532ea673e842683982b1b4012e6d",
+        "description": "turnip: implement VK_EXT_custom_border_color",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "84ed2d0980bfa98898606c67e7441bc83da6100e",
+        "description": "util/format: expose generated format packing functions through a header",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a322924d9cf4557af5fb11c95c1646f110a21aba",
+        "description": "panfrost: add missing dependency on midgard_pack.h",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8557b1a8ebeef466df3c912ecae02d85a8617b76",
+        "description": "panfrost: Fix border colour",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "f74186baa5efd1147916b39a819fee9e427c8ecd"
+    },
+    {
+        "sha": "8277334f3978463ec8631e2b98e3d2a37d113496",
+        "description": "nir/lower_idiv: Port recent LLVM fixes to emit_udiv",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "8b98d0954e6168484479cf51d56bface448d00d5"
+    },
+    {
+        "sha": "d452c04aa19e093afe47d225c2c02ba536ebf0ce",
+        "description": "aco: do not set valid_mask for POS0 exports on GFX 10.3",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0c621dcf0ed21eec658e45cee395f66344ac5190",
+        "description": "panfrost: XMLify enum mali_format",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "78445ce695444a176719e4bdc4eb9bfe159169c7",
+        "description": "panfrost: XMLify exception access",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "99d17fb771b77af5c693ce86aae6a61a05c05843",
+        "description": "panfrost: XMLify MSAA writeout mode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c9bdba26b0c16cac05bb14674458da2acd462797",
+        "description": "panfrost: XMLify Block Format",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8c1ac96eb6e037686c391b5cdd334b271c6804b6",
+        "description": "panfrost: Drop unused mali_channel_swizzle",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ad0b32cdbd512dd56c66426789c7b801a5db8a4f",
+        "description": "panfrost: XMLify Bifrost textures",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f008a6314c67fb11baeb70bdf4efe83b3476f029",
+        "description": "panfrost: XMLify Midgard textures",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b10c3c869d9f1693198517c40b95acf3a11f80d4",
+        "description": "panfrost: XMLify Bifrost samplers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f74186baa5efd1147916b39a819fee9e427c8ecd",
+        "description": "panfrost: XMLify Midgard samplers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c4c8c8e8fbd30968a43159cee0add48449f27a3b",
+        "description": "panfrost: Don't mask coverage mask to 4-bits",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6afd4addefa111c112b82a88824db7af61003407",
+        "description": "panfrost: Simplify depth/stencil/alpha",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1675d92d663bf92cb5f8d699a096748e7bdd768f",
+        "description": "panfrost: Simplify zsa == NULL case",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "931e7b4c7a16fdb4f9231d4af6ecb1b20ddaae2f",
+        "description": "panfrost: XMLify stencil test",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fa949678c1985de2d728691ffc177f1054dc35c8",
+        "description": "panfrost: XMLify UBOs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7f487e087f9170ff2bd23a071cd857475520def7",
+        "description": "panfrost: XMLify viewport",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ef20691e3d81021fcb246468e1a170220591617d",
+        "description": "panfrost: XMLify wrap modes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e9ca3204619b1b090d660b61cc69460e7e1e2d99",
+        "description": "panfrost: XMLify stencil op",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d182a6057fd2288210a2f623d480f8619fb32c7f",
+        "description": "panfrost: XMLify mali_func",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "32dbc80979e18d119105e46cb37c4bc9890fb6a9",
+        "description": "panfrost: XMLify draw_mode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4b7056b8c8a384819a00908b76be8bf4d407cdb6",
+        "description": "panfrost: XMLify job_type",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d2ddd4d56562d0c43e662882eca0964377dfba20",
+        "description": "pan/decode: Add helper to dump GPU structures",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "88dc4c21e6cd3084212a5d780c4113ee02721f14",
+        "description": "panfrost: Redirect cmdstream includes through GenXML",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1ad921956d8b9ed35ba72f44bd62a7a78ab854cf",
+        "description": "panfrost: Build midgard_pack.h via meson",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "75cc5b8c2922e192dd8c3e6dc33d6e691f2485fe",
+        "description": "panfrost: Adopt gen_pack_header.py via v3d",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9cb3a9e72eb99578780a0b754269673a8770d7b3",
+        "description": "panfrost: Add stub midgard.xml",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "33e69203d2a03cf15932f077dcc22e7ad23cd0e9",
+        "description": "util: Fix up indentation in the generated format tables code.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9fd0f455af7bc741ea330fcd12478833580dbcfc",
+        "description": "util: Change a codegenned switch statement to a nice little table.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4064a6cd207811434e5400a613b3833fbda6b787",
+        "description": "util: Split the pack/unpack functions out of the format desc.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6723addd8a70069517dd337939fe77ef6cea1a4c",
+        "description": "docs: update calendar for 20.2.0-rc2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6de5acdf4fd9f7fd923e85f710bae1c44bc0bf42",
+        "description": "docs: update calendar for 20.2.0-rc1",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4c84600afafe9eaebb8e355122ffc421ae372136",
+        "description": "radeonsi: fix compute-based culling with VERTEX_COUNTER_GDS_MODE == 1",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2b78cb2e0039f09d9820a1a9166a49f168c9959d",
+        "description": "radeonsi: disable NGG culling on gfx10.3 because of hangs",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a23802bcb9a42a02d34a5a36d6e66d6532813a0d"
+    },
+    {
+        "sha": "61042b1bdb199f98dd34085ed29a8c492ed9b2a3",
+        "description": "zink: handle more draw modes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ced9e6e3e5c14a0f9b7e6d20d01a337227fcf40a",
+        "description": "zink: change pipeline hashes to index based on vk primitive type",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2701f887fc376202577ad942c20a7284b12823f3",
+        "description": "anv/nir: Unify inputs_read/outputs_written between geometry stages",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2a1217513e1c5d881718c2a7f2afb951e1fe6305",
+        "description": "panfrost: Implement panfrost_query_dmabuf_modifiers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "24c921b1b5cc427c7ab1abd76c443db4a008d1b9",
+        "description": "panfrost: Ensure AFBC slices are aligned",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4d0241dfed3c457ffbdc51bcc41cfe723e5bb586",
+        "description": "panfrost: Allocate enough space for tiled formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8c0cb56fd9e9742af1186fe093bb38d7e2e59285",
+        "description": "panfrost: Enable YTR where allowed",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d285ea6467d382e3865c60f57d86501d362380de",
+        "description": "panfrost: Implement YTR availability check",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "acb8dcfebdde56a748ec50a3fbecf27912974be9",
+        "description": "panfrost: Choose AFBC when available",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c54d45dd90a0606a9287bdcc03fd2463e47039a2",
+        "description": "panfrost: Import staging routines from freedreno",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "348d374d01302ffe0e88e04e2509ff1407d731b5",
+        "description": "panfrost: Respect modifiers in resource management",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "56f9cc9948745b570704f20e18f0247628817de5",
+        "description": "panfrost: Account for modifiers when creating BO",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "965537df2afcaf94c4b96c2acd5e8f7036f71829",
+        "description": "panfrost: Use modifier instead of layout throughout",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6fed69cde2a96248ad3a5c20621c1e58c88f8d2f",
+        "description": "panfrost: Introduce create_with_modifier helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "32bd588fedef6411bb4538988475f38761e3de8c",
+        "description": "panfrost: Remove hint-based AFBC heuristic",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "340017ec476bf4af3297b7b3a65f667cbfc93a5f",
+        "description": "panfrost: Set `initialized` more conservatively",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "22777025d4ac63a8f5909f8da7baa2501a32682f",
+        "description": "gallium/dri2: Support Arm modifiers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "37872edf6fc678f90b1b2c8354a91007089f43b8",
+        "description": "zink: print error when getprocaddr fails for extension functions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "371f6f42ad423509b83dae9109b295e4b3eb4852",
         "description": "radv: Update CI expectations for the recent descriptor indexing regressions.",
         "nominated": false,
