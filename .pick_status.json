@@ -1,5 +1,842 @@
 [
     {
+        "sha": "916110e17f2e04d685978e6b385b3fe0d3231fe9",
+        "description": "st/mesa: Enable clip planes lowering for geometry shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "584f27326c1560cc23538cb76fb734ab492ccc3c",
+        "description": "st/mesa: factor ucp-lowering logic into helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ff4c991fd1c1f5f211ba9251f9c4701a1e013bf2",
+        "description": "compiler/glsl: Initialize local variable to zero to fix MSVC RTC error",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b38879f8c5f57b7f1802e433e33181bdf5e72aef",
+        "description": "vallium: initial import of the vulkan frontend",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8004fa9c9501d91669ac51d32c9a9143286ca7ea",
+        "description": "vulkan/wsi: add sw support. (v2)",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5a9eba4acd0b202967d312851a3cc143275fb653",
+        "description": "util/format: add some ZS helpers for vallium",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3abf548270bbe92aea17b976397813ba763f4ea0",
+        "description": "gallivm/nir: add load push constant support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "94e4a17f29b5f487213b37e8376eadd87308856a",
+        "description": "llvmpipe: add support for memory allocation APIs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ecb617a6a757a375a66b3c2ad25990011624c41a",
+        "description": "gallium: add a resource flag to say no over allocation.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e6c7ca218d77e5369d40d76941e7267d81633dc6",
+        "description": "gallium: add an interface for memory allocations.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "50b039590e19d07607ae0714ebffeed6d4f182d5",
+        "description": "radv: Use getter instead of setter to extract value.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "64768111c302014a6ae8db6122dedf0d5e5168cc"
+    },
+    {
+        "sha": "09196355b2b2b6a2d3935eb3c43fe784d226426a",
+        "description": "gallium: Use unpack_rgba() instead of fetch_rgba in translate_generic",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5b8d67cb64ca38c93089da2f0b414c5897a19e27",
+        "description": "util: Move fetch_rgba to a separate function table.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9cc84369b70781e5e0984c7950e4d084abce8050",
+        "description": "util: Mark the format description getter functions as const.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "35b22b5da0277ba12fdb45fee79bca75cc6bcf5c",
+        "description": "util: Make all 3 fetch_rgba functions occupy the same function slot.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "80babbbf7ea4facc653b1dbecd3a8b1de43dabed",
+        "description": "uitl: Add R1_UNORM to the list of noaccess (no pack/unpack) formats.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6668d7a5f36a31793a5309b5a612b8a388c3fcd9",
+        "description": "egl: drop unused egldriver.h header",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1f01fa11d78263a4923406babb9834ce5edea32f",
+        "description": "egl: drop now empty egldriver.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "890d0334c156ac830c1f329ac52e5c1cf8bb7e54",
+        "description": "egl: inline _eglInitializeDisplay() into eglInitialize()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0e7ae395e72c710be7d153c76222633aa8ab7444",
+        "description": "egl: inline _eglGetDriverProc() into eglGetProcAddress()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "735b35e34a8bf733748e89fe45fbed058ebf0739",
+        "description": "egl: drop unused ${drv}_driver()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c74628fd1e5d9af756d56b6026e72203523e6df6",
+        "description": "egl: replace `&_eglDriver`/`NULL` tested against `NULL` with simple `true`/`false`",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "37be01bff776c85d89cd33ec5fae2e179748e475",
+        "description": "egl: drop unused _EGLDriver from MesaGLInteropEGL{QueryDeviceInfo,ExportObject}()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5eb5847d487d76a763b739219366f62b19bc5a73",
+        "description": "egl: replace replace _EGLDriver with _EGLDisplay->Driver in eglapi.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "372c6c42af1dc7600eadb2712739986b2ba35325",
+        "description": "egl: replace _EGLDriver with _EGLDisplay->Driver in _eglGetSyncAttrib()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b9fb63ab03c3d0ab73916d3e52c4b66b3a1e79fd",
+        "description": "egl: drop unused _EGLDriver from _eglSurfaceAttrib()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b981babb937b4355c5c1d2415d95e725ba18e659",
+        "description": "egl: drop unused _EGLDriver & _EGLDisplay from _eglQueryContext()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3ef8aacb60e758d38e13d30fc5613f272bd3ddbd",
+        "description": "egl: drop unused _EGLDisplay from _eglSetDamageRegionKHRClampRects()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0345a614629d6e22c942cbaee095d04a14d72c2b",
+        "description": "egl: drop unused _EGLDriver from _eglGetConfigs()/_eglChooseConfig()/_eglGetConfigAttrib()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "67c745644fb84aaf40354177fb795c4a2bd01e30",
+        "description": "egl: drop unused _EGLDriver from SetBlobCacheFuncsANDROID()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1bbb0c7689bb4d999d4b2330b4edf03d39b1430b",
+        "description": "egl: drop unused _EGLDriver from QueryDmaBuf{Formats,Modifiers}EXT()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a71dcd2dc2a058f38f6cce78cfe32f9e7f3ac92c",
+        "description": "egl: drop unused _EGLDriver from ExportDMABUFImage{,Query}MESA()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "429e936948045d6314235581b79d29755b8bdc8c",
+        "description": "egl: drop unused _EGLDriver from QueryBufferAge()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "155541bc025ad8ff122ffafa28df452c7b53d771",
+        "description": "egl: drop unused _EGLDriver from PostSubBufferNV()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f010568ea25d4d6fe75d5764c42c24285a529dc3",
+        "description": "egl: drop unused _EGLDriver from CreateWaylandBufferFromImageWL()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "845a37ce355805f524ccb36ac0bfe668dda3be6d",
+        "description": "egl: drop unused _EGLDriver from {Bind,Unbind,Query}WaylandDisplayWL()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9d5162eddf8b1a3b7f1f4b60fe15e41ccf9fbd33",
+        "description": "egl: drop unused _EGLDriver from {Create,Export}DRMImageMESA()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "692b9c6ed0c61b388aedb908faba61af0ef6abe5",
+        "description": "egl: drop unused _EGLDriver from DupNativeFenceFDANDROID()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f49805c441aa787c8efb281d311d2d54c69ca84f",
+        "description": "egl: drop unused _EGLDriver from {Create,Destroy,ClientWait,Wait,Signal}SyncKHR()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "740ec08f21c7eae2036a2af441250e1416437acb",
+        "description": "egl: drop unused _EGLDriver from {Create,Destroy}ImageKHR()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a7d15d2ae3a6b0cbf6770ae50eff58ec2dd506e1",
+        "description": "egl: drop unused _EGLDriver from GetProcAddress()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b8d1c4647f2ed42170e1ec4780dba9bf1f1b4c0c",
+        "description": "egl: drop unused _EGLDriver & _EGLDisplay from WaitNative()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4e65469c706184fc900fcfbae046ee0a645160c6",
+        "description": "egl: drop unused _EGLDriver from WaitClient()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "648f603c35670d3f2724f09c3ff73503bc3d843c",
+        "description": "egl: drop unused _EGLDriver from SetDamageRegion()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d202fd6596c08fb8cbd745192f547d98f3e5ec84",
+        "description": "egl: drop unused _EGLDriver from CopyBuffers()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "82035b2e3db01090f726c2a2c35de9ddf539e2f0",
+        "description": "egl: drop unused _EGLDriver from SwapBuffers{,WithDamageEXT,RegionNOK}()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "347840cf43624bdb2a5ce820e1001842e3f75ded",
+        "description": "egl: drop unused _EGLDriver from SwapInterval()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2f4a6ad3b32aeb9e7172a8ec80c969495637cf17",
+        "description": "egl: drop unused _EGLDriver from {Bind,Release}TexImage()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "982ac69e3f838904f4e218a5ccab1eff9a25c387",
+        "description": "egl: drop unused _EGLDriver from QuerySurface()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1a17f1db555172597a15c3c88396f44b4aded5fc",
+        "description": "egl: drop unused _EGLDriver from MakeCurrent()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6b4c474ed7d217ae27edc6f9e30feba651ef6a53",
+        "description": "egl: drop unused _EGLDriver from Create{Window,Pixmap,Pbuffer}Surface() & DestroySurface()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f27a32a7927662eb4ce124b116ca561c3f693f3f",
+        "description": "egl: drop unused _EGLDriver from {Create,Destroy}Context()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "435ad514163d58596059256ae8f0bc518b99b4a1",
+        "description": "egl: drop unused _EGLDriver from Terminate()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ad61d4f14619ce43c5f558fc2ce5ac1267a95e25",
+        "description": "egl: drop unused _EGLDriver from Initialize()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e87e68d836e5e08025ce61d5aa79a5c68a5784ef",
+        "description": "egl: replace _EGLDriver with _EGLDisplay->Driver in _eglQuerySurface()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f3aa7b2e1b19ac71c1eee71c8a2a61cfc7d1a6d3",
+        "description": "egl: replace _EGLDriver param with _EGLDisplay->Driver in dri{2_x11,3}_create_window_surface()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "485f8f89f9027546df169b7b141d5f4dccb1a85e",
+        "description": "egl: replace _EGLDriver param with _EGLDisplay->Driver in _eglReleaseDisplayResources()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a76423e481ae0a5ed7726d43700cb0937ac9890b",
+        "description": "spirv/vtn_cfg.c: Include util/debug.h for env_var_as_boolean.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "430e3310e2aed924dc4e0729644e629007d73ef7",
+        "description": "llvmpipe: only read 0 for channels being read",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f1001a38275fc4bcc2491b58237a12dec08c621d",
+        "description": "CI: temp disable t720/t760 jobs.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "031f9e17d2c387a64770246c2e5801a233a8ea3c",
+        "description": "anv: don't fail userspace relocation with perf queries",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "2001a80d4a81f2e8194b29cca301dd1b27be9acb"
+    },
+    {
+        "sha": "dc667b1f192d33d073832a50b0e920734f9fb8ef",
+        "description": "nv50/ir/nir: fix smem size",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "384c4df23dafa516fbe76e2844b259087400543f",
+        "description": "clover/nir: fix mem_shared by using address_format_32bit_offset",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aa8661141a0f466994145e99be4d4bd4f9684a9d",
+        "description": "android: util/format: fix generated sources rules",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "84ed2d0980bfa98898606c67e7441bc83da6100e"
+    },
+    {
+        "sha": "b41e74ae4a7c8f67c47149b4415f715f8a4d2597",
+        "description": "spirv: Add a MESA_SPIRV_FORCE_UNSTRUCTURED environment variable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "217def3ac6721bc7d8a1f99d2fc4501e5ee8627d",
+        "description": "spirv: parse unstructured CFG",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "467b90fcc46efdd5ce64a12937fedf507d0242ec",
+        "description": "spirv: extract switch parsing into its own function",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "96dff31bc8f099651f4b96e9658bdb2a1c4b53cc",
+        "description": "spirv: Move the emit a 'return value' store logic into own function",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4638de8b1b3e362b356587622b1178f2d83bc619",
+        "description": "nir/lower_goto_if: Add some debug prints",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d57573dcd4aa2160f3153df466b01f377484a3fa",
+        "description": "nir/lower_goto_if: Add a route::outside set",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d2bf850672bb3691044d773c9fd96d0e80c7fcf3",
+        "description": "nir/lower_goto_if: Replace a tripple loop with a double loop",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b892d473b4e9399697d45a98d6cf02fa0e900e7f",
+        "description": "nir/lower_goto_if: Add a block_for_singular_set helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "193765e26ba4c9a8f8c9a10942a87bd65b4f1587",
+        "description": "nir/lower_goto_if: Sort blocks in select_fork",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0fad20f21b39b72c965151a0e2b0fb36e436b813",
+        "description": "nir/lower_goto_if: Rework some set union logic",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d1617985896274dce37b943307d456a042fb2a6d",
+        "description": "nir/lower_goto_if: Rework handling of skip targets",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2455d03c3113fbfe070fc30f3b292d3143e443b1",
+        "description": "nir/lower_goto_if: Use util/list instead of exec_list",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f69d732fcaba332f83aac073f2376ded0d3d5c74",
+        "description": "nir/lower_goto_if: Clean up ralloc usage",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "202b4df4aee790bb5b9486deb7c014ed440f27ff",
+        "description": "nir/lower_goto_if: Document some data structures",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b273611bb177b1a00d292f4d7df55efdf0f4ad61",
+        "description": "nir: Add a structurizer",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "025bdbac3e09ae9bac9eefb831e9446b9574d120",
+        "description": "nir: Add goto_if jump instruction",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "92db942fc6af52ea5a4a3eb77533a045ffe56685",
+        "description": "nir: Add and use nir_foreach_block_unstructured helpers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4768ea1a77ad7559004949d0cf1eb7af9a4499d9",
+        "description": "nir: Add a structured flag to nir_shader",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "19f35735a09546f630a92780cdeb2cc9ad08bad8",
+        "description": "spirv: rename vtn_emit_cf_list to vtn_emit_cf_list_structured",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "16f858968f2e066069ceaf4aea3deebf22a188d7",
+        "description": "util/set: add _mesa_set_intersects",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "acf756a64fee4cb1305df73e53aca7a40e56b7cb",
+        "description": "android: panfrost: Redirect cmdstream includes through GenXML (v2)",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "bce1a7e97fcf09bc9b1e6016281af8872b9e8ea6"
+    },
+    {
+        "sha": "92f65e28fee1f4e705e8a210977dd16239febbf9",
+        "description": "turnip: add missing tu_bo_list_add in CmdWriteTimestamp",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ddac5933f8f30df66b389c32a634dab16cff5a4c",
+        "description": "turnip: call packing functions directly for pack_gmem_clear_value",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "201331edbfeba9f3461a6296187d8dc435484a9d",
+        "description": "turnip: rework format_to_ifmt",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aa5ebf0a6dc24d087c28d9dc2be53b6e6a9b2233",
+        "description": "turnip: fix CmdBlitImage with D32_SFLOAT_S8_UINT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f83e89507de69b55c8c899fb0fa52f9c9bf3ce26",
+        "description": "turnip: delete a blit_image TODO that has already been resolved",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2ca1ccc18d8e232112d146255ed937597ff93a5f",
+        "description": "turnip: remove dead tu_minify/typed_memcpy functions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "99372547be9c116592b0f19ead672fa98125588f",
+        "description": "android: panfrost/bifrost: add libpanfrost_lib static dependency",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "88dc4c21e6cd3084212a5d780c4113ee02721f14"
+    },
+    {
+        "sha": "bce1a7e97fcf09bc9b1e6016281af8872b9e8ea6",
+        "description": "android: panfrost: Redirect cmdstream includes through GenXML",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "88dc4c21e6cd3084212a5d780c4113ee02721f14"
+    },
+    {
         "sha": "0980d1d5ab0829fa78852d81651d5386874e528a",
         "description": "radv:  Clean up setting the surface flags.",
         "nominated": false,
